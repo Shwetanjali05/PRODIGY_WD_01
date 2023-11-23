@@ -1,0 +1,19 @@
+/* Your existing CSS styles */
+.navbar {
+  background-color: #3b29c1; /* Default background color */
+  transition: background-color 0.3s, font 0.3s; /* Transition for background color and font */
+}
+
+.navbar.scrolled {
+  background-color: #555; /* Change to grey when scrolled */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .navbar-nav .nav-link {
+  transition: color 0.3s, font 0.3s; /* Transition for color and font */
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #ff69b4 !important; /* Change color to pink on hover */
+  font-style: italic; /* Change font style on hover */
+}
